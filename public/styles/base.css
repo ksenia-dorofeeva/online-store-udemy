@@ -5,21 +5,21 @@
 html {
   font-family: 'Montserrat', sans-serif;
 
-  --color-gray-50: rgb(243, 236, 230);
-  --color-gray-100: rgb(207, 201, 195);
-  --color-gray-300: rgb(99, 92, 86);
-  --color-gray-400: rgb(70, 65, 60);
-  --color-gray-500: rgb(37, 34, 31);
+  --color-gray-50: #FFFFFF;
+  --color-gray-100: #CCD6DD;
+  --color-gray-300: #CCD6DD;
+  --color-gray-400: #66757F;
+  --color-gray-500: #292F33;
   --color-gray-600: rgb(32, 29, 26);
   --color-gray-700: rgb(31, 26, 22);
 
-  --color-primary-50: rgb(253, 224, 200);
-  --color-primary-100: rgb(253, 214, 183);
-  --color-primary-200: rgb(250, 191, 143);
-  --color-primary-400: rgb(223, 159, 41);
-  --color-primary-500: rgb(212, 136, 14);
-  --color-primary-700: rgb(212, 120, 14);
-  --color-primary-200-contrast: rgb(100, 46, 2);
+  --color-primary-50: #e8f4fd;
+  --color-primary-100: #d1e8fa;
+  --color-primary-200: #b9ddf8;
+  --color-primary-400: #8bc6f4;
+  --color-primary-500: #55ACEE;
+  --color-primary-700: #178de8;
+  --color-primary-200-contrast: #1063a2;
   --color-primary-500-contrast: white;
 
   --color-error-100: rgb(255, 192, 180);
@@ -40,7 +40,7 @@ html {
 }
 
 body {
-  background-color: var(--color-gray-500);
+  background-color: var(--color-gray-700);
   color: var(--color-gray-100);
   margin: 0;
 }
